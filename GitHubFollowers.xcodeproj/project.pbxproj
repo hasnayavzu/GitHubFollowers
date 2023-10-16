@@ -13,6 +13,7 @@
 		307609782ADC4087004F793D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307609762ADC4087004F793D /* LaunchScreen.storyboard */; };
 		307609802ADC4C26004F793D /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076097F2ADC4C26004F793D /* SearchVC.swift */; };
 		307609822ADC4C6F004F793D /* FavoritesListsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307609812ADC4C6F004F793D /* FavoritesListsVC.swift */; };
+		309130AB2ADD75E7007F4BB6 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309130AA2ADD75E7007F4BB6 /* GFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		307609792ADC4087004F793D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3076097F2ADC4C26004F793D /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		307609812ADC4C6F004F793D /* FavoritesListsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListsVC.swift; sourceTree = "<group>"; };
+		309130AA2ADD75E7007F4BB6 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				307609792ADC4087004F793D /* Info.plist */,
 				3076097F2ADC4C26004F793D /* SearchVC.swift */,
 				307609812ADC4C6F004F793D /* FavoritesListsVC.swift */,
+				309130AA2ADD75E7007F4BB6 /* GFButton.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				307609822ADC4C6F004F793D /* FavoritesListsVC.swift in Sources */,
+				309130AB2ADD75E7007F4BB6 /* GFButton.swift in Sources */,
 				307609802ADC4C26004F793D /* SearchVC.swift in Sources */,
 				3076096C2ADC4086004F793D /* AppDelegate.swift in Sources */,
 				3076096E2ADC4086004F793D /* SceneDelegate.swift in Sources */,
