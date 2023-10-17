@@ -15,6 +15,7 @@
 		307609822ADC4C6F004F793D /* FavoritesListsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307609812ADC4C6F004F793D /* FavoritesListsVC.swift */; };
 		309130AB2ADD75E7007F4BB6 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309130AA2ADD75E7007F4BB6 /* GFButton.swift */; };
 		309130AD2ADD79A5007F4BB6 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309130AC2ADD79A5007F4BB6 /* GFTextField.swift */; };
+		30DB15022ADEB0D300F1ABD1 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB15012ADEB0D300F1ABD1 /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		307609812ADC4C6F004F793D /* FavoritesListsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListsVC.swift; sourceTree = "<group>"; };
 		309130AA2ADD75E7007F4BB6 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		309130AC2ADD79A5007F4BB6 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		30DB15012ADEB0D300F1ABD1 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				307609812ADC4C6F004F793D /* FavoritesListsVC.swift */,
 				309130AA2ADD75E7007F4BB6 /* GFButton.swift */,
 				309130AC2ADD79A5007F4BB6 /* GFTextField.swift */,
+				30DB15012ADEB0D300F1ABD1 /* FollowerListVC.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				307609822ADC4C6F004F793D /* FavoritesListsVC.swift in Sources */,
 				309130AB2ADD75E7007F4BB6 /* GFButton.swift in Sources */,
 				307609802ADC4C26004F793D /* SearchVC.swift in Sources */,
+				30DB15022ADEB0D300F1ABD1 /* FollowerListVC.swift in Sources */,
 				3076096C2ADC4086004F793D /* AppDelegate.swift in Sources */,
 				3076096E2ADC4086004F793D /* SceneDelegate.swift in Sources */,
 			);
