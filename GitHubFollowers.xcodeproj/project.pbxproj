@@ -72,23 +72,55 @@
 		3076096A2ADC4086004F793D /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				30DB150F2ADED33700F1ABD1 /* Extensions */,
+				30DB150E2ADED2DE00F1ABD1 /* Custom Views */,
+				30DB150D2ADED28500F1ABD1 /* Screens */,
+				308174752ADEDF50006317F9 /* Support */,
+			);
+			path = GitHubFollowers;
+			sourceTree = "<group>";
+		};
+		308174752ADEDF50006317F9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				3076096B2ADC4086004F793D /* AppDelegate.swift */,
 				3076096D2ADC4086004F793D /* SceneDelegate.swift */,
 				307609742ADC4087004F793D /* Assets.xcassets */,
 				307609762ADC4087004F793D /* LaunchScreen.storyboard */,
 				307609792ADC4087004F793D /* Info.plist */,
-				3076097F2ADC4C26004F793D /* SearchVC.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		30DB150D2ADED28500F1ABD1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				30DB15012ADEB0D300F1ABD1 /* FollowerListVC.swift */,
 				307609812ADC4C6F004F793D /* FavoritesListsVC.swift */,
+				3076097F2ADC4C26004F793D /* SearchVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		30DB150E2ADED2DE00F1ABD1 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				30DB15072ADEBCC600F1ABD1 /* GFAlertVC.swift */,
 				309130AA2ADD75E7007F4BB6 /* GFButton.swift */,
 				309130AC2ADD79A5007F4BB6 /* GFTextField.swift */,
-				30DB15012ADEB0D300F1ABD1 /* FollowerListVC.swift */,
 				30DB15032ADEB99200F1ABD1 /* GFTitleLabel.swift */,
 				30DB15052ADEBBCE00F1ABD1 /* GFBodyLabel.swift */,
-				30DB15072ADEBCC600F1ABD1 /* GFAlertVC.swift */,
 				30DB15092ADEC52300F1ABD1 /* GFAlertCV.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		30DB150F2ADED33700F1ABD1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
 				30DB150B2ADECB4600F1ABD1 /* UIViewController+Ext.swift */,
 			);
-			path = GitHubFollowers;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,11 +346,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 63C6GDV6M6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GitHubFollowers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Followers";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
@@ -344,11 +378,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 63C6GDV6M6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GitHubFollowers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "GitHub Followers";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
