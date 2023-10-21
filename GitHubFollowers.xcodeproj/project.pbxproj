@@ -19,6 +19,8 @@
 		309130AD2ADD79A5007F4BB6 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309130AC2ADD79A5007F4BB6 /* GFTextField.swift */; };
 		30952B4D2AE16B2D0033FE5F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30952B4C2AE16B2D0033FE5F /* NetworkManager.swift */; };
 		30952B502AE177B90033FE5F /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30952B4F2AE177B90033FE5F /* GFError.swift */; };
+		30CEDA192AE400FC001A6E98 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEDA182AE400FC001A6E98 /* FollowerCell.swift */; };
+		30CEDA1B2AE401B3001A6E98 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEDA1A2AE401B3001A6E98 /* GFAvatarImageView.swift */; };
 		30DB15022ADEB0D300F1ABD1 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB15012ADEB0D300F1ABD1 /* FollowerListVC.swift */; };
 		30DB15042ADEB99200F1ABD1 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB15032ADEB99200F1ABD1 /* GFTitleLabel.swift */; };
 		30DB15062ADEBBCE00F1ABD1 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB15052ADEBBCE00F1ABD1 /* GFBodyLabel.swift */; };
@@ -42,6 +44,8 @@
 		309130AC2ADD79A5007F4BB6 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		30952B4C2AE16B2D0033FE5F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		30952B4F2AE177B90033FE5F /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
+		30CEDA182AE400FC001A6E98 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		30CEDA1A2AE401B3001A6E98 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		30DB15012ADEB0D300F1ABD1 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		30DB15032ADEB99200F1ABD1 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		30DB15052ADEBBCE00F1ABD1 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
@@ -128,6 +132,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		30CEDA172AE400CE001A6E98 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				30CEDA182AE400FC001A6E98 /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		30DB150D2ADED28500F1ABD1 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,12 +153,14 @@
 		30DB150E2ADED2DE00F1ABD1 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				30CEDA172AE400CE001A6E98 /* Cells */,
 				30DB15072ADEBCC600F1ABD1 /* GFAlertVC.swift */,
 				309130AA2ADD75E7007F4BB6 /* GFButton.swift */,
 				309130AC2ADD79A5007F4BB6 /* GFTextField.swift */,
 				30DB15032ADEB99200F1ABD1 /* GFTitleLabel.swift */,
 				30DB15052ADEBBCE00F1ABD1 /* GFBodyLabel.swift */,
 				30DB15092ADEC52300F1ABD1 /* GFAlertCV.swift */,
+				30CEDA1A2AE401B3001A6E98 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -236,6 +250,8 @@
 				307609802ADC4C26004F793D /* SearchVC.swift in Sources */,
 				30DB15082ADEBCC600F1ABD1 /* GFAlertVC.swift in Sources */,
 				305882E22AE0118F00BDCA32 /* User.swift in Sources */,
+				30CEDA192AE400FC001A6E98 /* FollowerCell.swift in Sources */,
+				30CEDA1B2AE401B3001A6E98 /* GFAvatarImageView.swift in Sources */,
 				30DB15062ADEBBCE00F1ABD1 /* GFBodyLabel.swift in Sources */,
 				305882E02AE010C600BDCA32 /* Follower.swift in Sources */,
 				30DB15042ADEB99200F1ABD1 /* GFTitleLabel.swift in Sources */,
