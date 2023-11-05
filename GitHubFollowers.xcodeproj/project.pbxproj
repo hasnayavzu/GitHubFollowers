@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		305882E02AE010C600BDCA32 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305882DF2AE010C600BDCA32 /* Follower.swift */; };
 		305882E22AE0118F00BDCA32 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305882E12AE0118F00BDCA32 /* User.swift */; };
+		3067D9772AF79A1800D7D1BB /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3067D9762AF79A1800D7D1BB /* UserInfoVC.swift */; };
 		3076096C2ADC4086004F793D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076096B2ADC4086004F793D /* AppDelegate.swift */; };
 		3076096E2ADC4086004F793D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076096D2ADC4086004F793D /* SceneDelegate.swift */; };
 		307609752ADC4087004F793D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307609742ADC4087004F793D /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		305882DF2AE010C600BDCA32 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		305882E12AE0118F00BDCA32 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3067D9762AF79A1800D7D1BB /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		307609682ADC4086004F793D /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3076096B2ADC4086004F793D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3076096D2ADC4086004F793D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				30DB15012ADEB0D300F1ABD1 /* FollowerListVC.swift */,
 				307609812ADC4C6F004F793D /* FavoritesListsVC.swift */,
 				3076097F2ADC4C26004F793D /* SearchVC.swift */,
+				3067D9762AF79A1800D7D1BB /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				30CEDA192AE400FC001A6E98 /* FollowerCell.swift in Sources */,
 				30CEDA1B2AE401B3001A6E98 /* GFAvatarImageView.swift in Sources */,
 				30DB15062ADEBBCE00F1ABD1 /* GFBodyLabel.swift in Sources */,
+				3067D9772AF79A1800D7D1BB /* UserInfoVC.swift in Sources */,
 				305882E02AE010C600BDCA32 /* Follower.swift in Sources */,
 				30DB15042ADEB99200F1ABD1 /* GFTitleLabel.swift in Sources */,
 				30DB150A2ADEC52300F1ABD1 /* GFAlertView.swift in Sources */,
