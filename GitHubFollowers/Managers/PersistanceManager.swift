@@ -22,8 +22,24 @@ enum PersistanceManager {
         retrieveFavorites { result in
             switch result {
             case .success(let favorites):
-                // MARK: BURDAN DEVAM ET
-                break
+                
+                var retrievedFavorites = favorites
+                
+                switch actionType {
+                case .add:
+                    guard !retrievedFavorites.contains(favorite) else {
+                        completed(.alreadyInFavorites)
+                        return
+                    }
+                    
+                    retrievedFavorites.append(favorite)
+                    
+                case .remove:
+                    retrievedFavorites.removeAll { $0.login == favorite.login }
+                }
+                
+                completed(save(favorites: retrievedFavorites))
+                
             case .failure(let error):
                 completed(error)
             }
@@ -46,7 +62,6 @@ enum PersistanceManager {
     }
     
     static func save(favorites: [Follower]) -> GFError? {
-        
         do {
             let encoder = JSONEncoder()
             let encodedFavorites = try encoder.encode(favorites)
@@ -55,7 +70,5 @@ enum PersistanceManager {
         } catch {
             return .unableToFavorite
         }
-        
     }
-    
 }
